@@ -29,6 +29,7 @@ public class TestController {
 	@RequestMapping(value = "/success")
 	public String success(Map<String, String> map) {
 		map.put("hello", "nihao");
+		map.put("criss", "王秋宝");
 		return "success";
 	}
 	
